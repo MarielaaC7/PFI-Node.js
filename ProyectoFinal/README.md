@@ -1,70 +1,36 @@
-🌿 E-commerce Frontend
+🌱 PFI - Node.js
 
-Aplicación web de comercio electrónico desarrollada con React y Vite, conectada a un Backend mediante una API REST.
+API REST desarrollada con Node.js y Express para administrar un catálogo de productos.
 
 🛠️ Tecnologías utilizadas
 
-⚛️ React 18
+🟢 Node.js
 
-⚡ Vite
+🚀 Express
+
+🔥 Firebase / Firestore
 
 💻 JavaScript
 
-🎨 Tailwind CSS
+📦 Funcionalidades
 
-🔍 Lucide React
+📋 Consultar productos.
 
-🔗 Fetch API
+🔎 Buscar productos por categoría.
 
-✨ Funcionalidades principales
+🆔 Consultar productos por ID.
 
-🪴 Visualización y consulta de productos.
+➕ Crear productos.
 
-🏷️ Filtrado por categoría.
+✏️ Actualizar productos.
 
-🔎 Búsqueda de productos por ID.
+🗑️ Eliminar productos.
 
-🛒 Carrito de compras.
-
-📡 Inspector para visualizar peticiones y respuestas del servidor.
-
-🔌 Endpoints consumidos
-
-La comunicación con el Backend se centraliza en src/services/productsApi.js.
-
-El Frontend consume la siguiente estructura de respuesta:
-
-res.status(200).send({
-  message: "Productos encontrados",
-  data: products
-});
-
-Endpoints disponibles:
-
-Obtener todos los productos:
-
-GET ${VITE_API_URL}/api/products
-
-Filtrar productos por categoría (Query Params):
-
-GET ${VITE_API_URL}/api/products?category=nombre_categoria
-
-Buscar un producto por ID (Path Params):
-
-GET ${VITE_API_URL}/api/products/:id
-
-🚀 Instalación y ejecución
-
-1. Instalar dependencias:
+⚙️ Instalación
 
 npm install
+npm run dev
 
-2. Configurar variables de entorno:
+👩‍💻 Autora
 
-Crear un archivo .env en la raíz del proyecto:
-
-VITE_API_URL=http://localhost:3000
-
-3. Iniciar el servidor de desarrollo:
-
-npm run de
+Mariel Camargo
