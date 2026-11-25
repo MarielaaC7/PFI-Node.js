@@ -1,8 +1,12 @@
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
+import dotenv from "dotenv";
 import rutasProductos from "./src/routes/products.routes.js";
 import authRouter from './src/routes/auth.routes.js';
+
+
+dotenv.config();
 
 console.log("JWT:", Boolean(process.env.JWT_SECRET_KEY));
 
